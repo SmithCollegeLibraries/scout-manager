@@ -7,16 +7,7 @@
 
     <div class="col-md-4 mgr-location-meta">
         
-        <div class="form-group">
-            <label class="control-label" for="space-campus">Campus: <span class="visually-hidden">Required</span></label>
-            <select id="campus_select" class="form-control" name="extended_info:campus" required data-error="Campus selection is required.">
-                <option disabled selected value>select a campus...</option>
-                <option value="seattle" {% if spot.campus == "seattle" %} selected {% endif %}>Seattle</option>
-                <option value="bothell" {% if spot.campus == "bothell" %} selected {% endif %}>Bothell</option>
-                <option value="tacoma" {% if spot.campus == "tacoma" %} selected {% endif %}>Tacoma</option>
-            </select>
-            <div class="help-block with-errors" role="alert"></div>
-        </div>
+        <input type="hidden" id="campus_select" name="extended_info:campus" value="smith" />
                 {% if spot.name %}
         
              <!-- Hide if outdoor location. We suggest/enforce building options. -->

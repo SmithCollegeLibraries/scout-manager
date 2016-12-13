@@ -42,7 +42,7 @@ var Maps = {
                 if (spot_lat && spot_lng) {
                     latlng = new google.maps.LatLng(spot_lat, spot_lng);
                 } else {
-                    latlng = new google.maps.LatLng(47.653787, -122.307808);
+                    latlng = new google.maps.LatLng(42.3182544, -72.6387925);
                 }
 
                 map = new google.maps.Map(picker.get(0), {

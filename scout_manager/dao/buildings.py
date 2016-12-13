@@ -1,303 +1,303 @@
 BUILDING_LIST = {
     'Alder Hall': {
-        'campus': 'seattle'
+        'campus': 'smith'
     },
     'Alder Hall (ALD)': {
-        'campus': 'seattle'
+        'campus': 'smith'
     },
     'Allen Library (ALB)': {
-        'campus': 'seattle'
+        'campus': 'smith'
     },
     'Allen Library (ALB) North': {
-        'campus': 'seattle'
+        'campus': 'smith'
     },
     'Allen Library (ALB) South': {
-        'campus': 'seattle'
+        'campus': 'smith'
     },
     'Architecture Hall (ARC)': {
-        'campus': 'seattle'
+        'campus': 'smith'
     },
     'Art Building (ART)': {
-        'campus': 'seattle'
+        'campus': 'smith'
     },
     'Burke Memorial-Washington State Museum (BMM)': {
-        'campus': 'seattle'
+        'campus': 'smith'
     },
     'Burke Memorial-Washington State Museum (BMM)': {
-        'campus': 'seattle'
+        'campus': 'smith'
     },
     'Business Hall (BHQ)': {
-        'campus': 'seattle'
+        'campus': 'smith'
     },
     'Computer Science and Engineering Building (CSE)': {
-        'campus': 'seattle'
+        'campus': 'smith'
     },
     'Electrical Engineering Building (EEB)': {
-        'campus': 'seattle'
+        'campus': 'smith'
     },
     'Elm Hall': {
-        'campus': 'seattle'
+        'campus': 'smith'
     },
     'Engineering Library (ELB)': {
-        'campus': 'seattle'
+        'campus': 'smith'
     },
     'Fishery Sciences (FSH)': {
-        'campus': 'seattle'
+        'campus': 'smith'
     },
     'Fluke Hall (FLK)': {
-        'campus': 'seattle'
+        'campus': 'smith'
     },
     'Gould Hall (GLD)': {
-        'campus': 'seattle'
+        'campus': 'smith'
     },
     'Gowen Hall (GWN)': {
-        'campus': 'seattle'
+        'campus': 'smith'
     },
     'Haggett Hall (HGT)': {
-        'campus': 'seattle'
+        'campus': 'smith'
     },
     'Hitchcock Hall (HCK)': {
-        'campus': 'seattle'
+        'campus': 'smith'
     },
     'Husky Union Building (HUB)': {
-        'campus': 'seattle'
+        'campus': 'smith'
     },
     'Hutchinson Hall (HUT)': {
-        'campus': 'seattle'
+        'campus': 'smith'
     },
     'Intramural Activities Building (IMA)': {
-        'campus': 'seattle'
+        'campus': 'smith'
     },
     'Kane Hall (KNE)': {
-        'campus': 'seattle'
+        'campus': 'smith'
     },
     'Lander Hall (LAH)': {
-        'campus': 'seattle'
+        'campus': 'smith'
     },
     'Magnuson Health Sciences Center A (HSA)': {
-        'campus': 'seattle'
+        'campus': 'smith'
     },
     'Magnuson Health Sciences Center C (HSC)': {
-        'campus': 'seattle'
+        'campus': 'smith'
     },
     'Magnuson Health Sciences Center D (HSD)': {
-        'campus': 'seattle'
+        'campus': 'smith'
     },
     'Magnuson Health Sciences Center E (HSE)': {
-        'campus': 'seattle'
+        'campus': 'smith'
     },
     'Magnuson Health Sciences Center I (HSI)': {
-        'campus': 'seattle'
+        'campus': 'smith'
     },
     'Magnuson Health Sciences Center T (HST)': {
-        'campus': 'seattle'
+        'campus': 'smith'
     },
     'Mary Gates Hall (MGH)': {
-        'campus': 'seattle'
+        'campus': 'smith'
     },
     'Mary Gates Hall (MGH)': {
-        'campus': 'seattle'
+        'campus': 'smith'
     },
 
     'McCarty Hall (MCC)': {
-        'campus': 'seattle'
+        'campus': 'smith'
     },
     'McMahon Hall (MCM)': {
-        'campus': 'seattle'
+        'campus': 'smith'
     },
     'Mercer Court (MRC)': {
-        'campus': 'seattle'
+        'campus': 'smith'
     },
     'Miller Hall (MLR)': {
-        'campus': 'seattle'
+        'campus': 'smith'
     },
     'Molecular Engineering & Sciences (MOL)': {
-        'campus': 'seattle'
+        'campus': 'smith'
     },
     'Music Building (MUS)': {
-        'campus': 'seattle'
+        'campus': 'smith'
     },
     'Odegaard Undergraduate Library (OUGL)': {
-        'campus': 'seattle'
+        'campus': 'smith'
     },
     'Paccar Hall (PCAR)': {
-        'campus': 'seattle'
+        'campus': 'smith'
     },
     'Padelford Hall (PDL)': {
-        'campus': 'seattle'
+        'campus': 'smith'
     },
     'Parrington Hall (PAR)': {
-        'campus': 'seattle'
+        'campus': 'smith'
     },
     'Physics/Astronomy Building (PAB) Tower': {
-        'campus': 'seattle'
+        'campus': 'smith'
     },
     'Physics / Astronomy Building (PAB)': {
-        'campus': 'seattle'
+        'campus': 'smith'
     },
     'Poplar Hall (UTO)': {
-        'campus': 'seattle'
+        'campus': 'smith'
     },
     'Red Square': {
-        'campus': 'seattle'
+        'campus': 'smith'
     },
     'Roosevelt Clinic': {
-        'campus': 'seattle'
+        'campus': 'smith'
     },
     'Science Building (SCI)': {
-        'campus': 'tacoma'
+        'campus': 'smith'
     },
     'Smith Hall (SMI)': {
-        'campus': 'seattle'
+        'campus': 'smith'
     },
     'Social Work/Speech & Hearing Sciences Building (SWS)': {
-        'campus': 'seattle'
+        'campus': 'smith'
     },
     'South Campus Center (SOCC)': {
-        'campus': 'seattle'
+        'campus': 'smith'
     },
     'South Campus Center': {
-        'campus': 'seattle'
+        'campus': 'smith'
     },
     'Surgery And Treatment Pavilion (UMSP)': {
-        'campus': 'seattle'
+        'campus': 'smith'
     },
     'Suzzallo Library (SUZ)': {
-        'campus': 'seattle'
+        'campus': 'smith'
     },
     'UW Medical Center': {
-        'campus': 'seattle'
+        'campus': 'smith'
     },
     'UW Tower Building A (UWTA)': {
-        'campus': 'seattle'
+        'campus': 'smith'
     },
     'William H. Foege Genome Sciences (GNOM)': {
-        'campus': 'seattle'
+        'campus': 'smith'
     },
     'William H. Foege Bioengineering (BIOE)': {
-        'campus': 'seattle'
+        'campus': 'smith'
     },
     'William H. Gates Hall (LAW)': {
-        'campus': 'seattle'
+        'campus': 'smith'
     },
 
 
 
     'Brotman Building (BFB)': {
-        'campus': 'south_lake_union'
+        'campus': 'smith'
     },
 
 
     'Activities and Recreation Center': {
-        'campus': 'bothell'
+        'campus': 'smith'
     },
     'Beardslee Building (UWBB)': {
-        'campus': 'bothell'
+        'campus': 'smith'
     },
     'Bothell Bookstore (LB2)': {
-        'campus': 'bothell'
+        'campus': 'smith'
     },
     'Bothell Library (LB1)': {
-        'campus': 'bothell'
+        'campus': 'smith'
     },
     'Bothell Library Annex (LBA)': {
-        'campus': 'bothell'
+        'campus': 'smith'
     },
     'Founders Hall (UW1)': {
-        'campus': 'bothell'
+        'campus': 'smith'
     },
     'Chase House': {
-        'campus': 'bothell'
+        'campus': 'smith'
     },
     'Commons Hall (UW2)': {
-        'campus': 'bothell'
+        'campus': 'smith'
     },
     'Discovery Hall (UW3)': {
-        'campus': 'bothell'
+        'campus': 'smith'
     },
     'Husky Hall (HH)': {
-        'campus': 'bothell'
+        'campus': 'smith'
     },
     'Husky Village Apartments': {
-        'campus': 'bothell'
+        'campus': 'smith'
     },
     'North Creek Events Center': {
-        'campus': 'bothell'
+        'campus': 'smith'
     },
 
     'Truly House': {
-        'campus': 'bothell'
+        'campus': 'smith'
     },
 
 
     'Academic Building (ADMC)': {
-        'campus': 'tacoma'
+        'campus': 'smith'
     },
     'Birmingham Block (BB)': {
-        'campus': 'tacoma'
+        'campus': 'smith'
     },
     'Birmingham Hay & Seed (BHS)': {
-        'campus': 'tacoma'
+        'campus': 'smith'
     },
     'Carlton Center (CAR)': {
-        'campus': 'tacoma'
+        'campus': 'smith'
     },
     'Cherry Parkes (CP)': {
-        'campus': 'tacoma'
+        'campus': 'smith'
     },
     'Dougan (DOU)': {
-        'campus': 'tacoma'
+        'campus': 'smith'
     },
     'Garretson Woodruff & Pratt (GWP)': {
-        'campus': 'tacoma'
+        'campus': 'smith'
     },
     'Russell T. Joy': {
-        'campus': 'tacoma'
+        'campus': 'smith'
     },
     'Joy': {
-        'campus': 'tacoma'
+        'campus': 'smith'
     },
     'Keystone (KEY)': {
-        'campus': 'tacoma'
+        'campus': 'smith'
     },
     'Laborer\'s Hall': {
-        'campus': 'tacoma'
+        'campus': 'smith'
     },
     'Longshoremen\'s Hall (LSH)': {
-        'campus': 'tacoma'
+        'campus': 'smith'
     },
     'Mattress Factory (MAT)': {
-        'campus': 'tacoma'
+        'campus': 'smith'
     },
     'McDonald Smith (MDS)': {
-        'campus': 'tacoma'
+        'campus': 'smith'
     },
     'Pinkerton (PNK)': {
-        'campus': 'tacoma'
+        'campus': 'smith'
     },
     'Science (SCI)': {
-        'campus': 'tacoma'
+        'campus': 'smith'
     },
     'Snoqualmie Building (SNO)': {
-        'campus': 'tacoma'
+        'campus': 'smith'
     },
     'The Whitney': {
-        'campus': 'tacoma'
+        'campus': 'smith'
     },
     'Tioga Library Building (TLB)': {
-        'campus': 'tacoma'
+        'campus': 'smith'
     },
     'University Y Student Center': {
-        'campus': 'tacoma'
+        'campus': 'smith'
     },
     'Walsh Gardner (WG)': {
-        'campus': 'tacoma'
+        'campus': 'smith'
     },
     'West Coast Grocery (WCG)': {
-        'campus': 'tacoma'
+        'campus': 'smith'
     },
     'William W. Phillip Hall (WPH)': {
-        'campus': 'tacoma'
+        'campus': 'smith'
     }
 
 }
