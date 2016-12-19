@@ -53,10 +53,6 @@
     <div class="col-md-8">
 
         <h3 class="">General Info</h3>
-        {% if spot.app_type == "study" %}
-        <div class="row">
-            <div class="col-md-8">
-        {% endif %}
 
         <div class="form-group">
             <label for="space-name" class="control-label">Space Name:  <span class="visually-hidden">Required</span></label>
@@ -70,61 +66,35 @@
 
         </div>
 
-         {% if spot.app_type == "study" %}
-             </div>
-        <div class="col-md-4">
-        <div class="form-group">
-            <label for="capacity" class="control-label">Space Capacity
-             <a type="button" class="help-link" data-toggle="modal" data-target="#help_capacity" title="More info: Capacity" >
-              <i class="fa fa-info-circle fa-2" aria-hidden="true"></i><span class="visually-hidden">More information</span>
-            </a>
-            </label>
-            <input class="form-control" type="number" min="1" name="capacity" id="capacity" value="{% if spot.capacity %}{{spot.capacity}}{% endif %}" data-error="number can't be negative or decimal">
-            <div class="help-block with-errors" role="alert"></div>
-        </div>
-        </div>
+        {% if spot.app_type == "study" %}
+        <div class="row">
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="capacity" class="control-label">Space Capacity
+                        <a type="button" class="help-link" data-toggle="modal" data-target="#help_capacity" title="More info: Capacity" >
+                          <i class="fa fa-info-circle fa-2" aria-hidden="true"></i><span class="visually-hidden">More information</span>
+                        </a>
+                    </label>
+                    <input class="form-control" type="number" min="1" name="capacity" id="capacity" value="{% if spot.capacity %}{{spot.capacity}}{% endif %}" data-error="number can't be negative or decimal">
+                    <div class="help-block with-errors" role="alert"></div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="capacity" class="control-label">Space Occupancy</label>
+                    <p class="form-control-static">{{ spot.occupied }}</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="capacity" class="control-label">Space Status</label>
+                    <p class="form-control-static">{% if spot.occupied >= spot.capacity %}Full{%else%}Available{%endif%}</p>
+                </div>
+            </div>
         </div>
         {% endif %}
 
-
-        <fieldset style="margin-top:2em;" class="radio-group required" id="app_type_radio">
-            <legend class="">Primary purpose of Space:  <span class="visually-hidden">Required</span>
-              <em>{% if spot.name %}
-                {% if spot.app_type == "food" %}
-                For Food
-                {% elif spot.app_type == "study" %}
-                For Studying
-                {% elif spot.app_type == "tech" %}
-                Access to Tech
-                {% endif %}
-                {% endif %}</em></legend>
-
-            {% if spot.name %}
-                {% if spot.app_type == "food" %}
-                <input type="hidden" name="extended_info:app_type" value="food" checked />
-                {% elif spot.app_type == "study" %}
-                <input type="hidden" checked />
-                {% elif spot.app_type == "tech" %}
-                <input type="hidden" name="extended_info:app_type" value="tech" checked />
-                {% endif %}
-                <p class="help-block">Note: Please <a href="mailto:help@uw.edu">contact us</a> if you need to change this attribute.</p>
-            {% else %}
-            <div id="add_new_extended_info" class="well mgr-set-app-type">
-                <div class="radio">
-                    <label><input type="radio" name="extended_info:app_type" value="food">Food</label>
-                </div>
-                <div class="radio">
-                    <label><input id="study_radio" type="radio" value="study">Study</label>
-                </div>
-                <div class="radio">
-                    <label><input type="radio" name="extended_info:app_type" value="tech">Access to Tech</label>
-                </div>
-            </div>
-            <div class="help-block with-errors" role="alert">A primary purpose selection is required. </div>
-            {% endif %}
-
-        </fieldset>
-
+        <input type="hidden" checked />
 
         {% if spot.app_type == "food" %}
     {% include "scout_manager/include/extend_food.html" %}
