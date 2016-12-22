@@ -1,307 +1,386 @@
 BUILDING_LIST = {
-    'Alder Hall': {
+    "10 Prospect Street": {
         'campus': 'smith'
     },
-    'Alder Hall (ALD)': {
+    "12 Bedford Terrace": {
         'campus': 'smith'
     },
-    'Allen Library (ALB)': {
+    "126 West Street": {
         'campus': 'smith'
     },
-    'Allen Library (ALB) North': {
+    "138 Elm Street": {
         'campus': 'smith'
     },
-    'Allen Library (ALB) South': {
+    "150 Elm Street": {
         'campus': 'smith'
     },
-    'Architecture Hall (ARC)': {
+    "26 Bedford Terrace": {
         'campus': 'smith'
     },
-    'Art Building (ART)': {
+    "27 Belmont Avenue ": {
         'campus': 'smith'
     },
-    'Burke Memorial-Washington State Museum (BMM)': {
+    "30 Belmont Avenue": {
         'campus': 'smith'
     },
-    'Burke Memorial-Washington State Museum (BMM)': {
+    "32 Bedford Terrace": {
         'campus': 'smith'
     },
-    'Business Hall (BHQ)': {
+    "42 Green Street": {
         'campus': 'smith'
     },
-    'Computer Science and Engineering Building (CSE)': {
+    "51 College Lane": {
         'campus': 'smith'
     },
-    'Electrical Engineering Building (EEB)': {
+    "52 Green Street": {
         'campus': 'smith'
     },
-    'Elm Hall': {
+    "54 Green Street": {
         'campus': 'smith'
     },
-    'Engineering Library (ELB)': {
+    "76 Elm Street": {
         'campus': 'smith'
     },
-    'Fishery Sciences (FSH)': {
+    "8 College Lane": {
         'campus': 'smith'
     },
-    'Fluke Hall (FLK)': {
+    "Admission Building": {
         'campus': 'smith'
     },
-    'Gould Hall (GLD)': {
+    "Ainsworth Gymnasium": {
         'campus': 'smith'
     },
-    'Gowen Hall (GWN)': {
+    "Albright House": {
         'campus': 'smith'
     },
-    'Haggett Hall (HGT)': {
+    "Alumnae Gym": {
         'campus': 'smith'
     },
-    'Hitchcock Hall (HCK)': {
+    "Alumnae House": {
         'campus': 'smith'
     },
-    'Husky Union Building (HUB)': {
+    "Athletic Fields": {
         'campus': 'smith'
     },
-    'Hutchinson Hall (HUT)': {
+    "Baldwin House": {
         'campus': 'smith'
     },
-    'Intramural Activities Building (IMA)': {
+    "Bass Hall": {
         'campus': 'smith'
     },
-    'Kane Hall (KNE)': {
+    "Bechtel Environmental Classroom": {
         'campus': 'smith'
     },
-    'Lander Hall (LAH)': {
+    "Boat House": {
         'campus': 'smith'
     },
-    'Magnuson Health Sciences Center A (HSA)': {
+    "Burton Hall": {
         'campus': 'smith'
     },
-    'Magnuson Health Sciences Center C (HSC)': {
+    "Campus Center": {
         'campus': 'smith'
     },
-    'Magnuson Health Sciences Center D (HSD)': {
+    "Capen Annex": {
         'campus': 'smith'
     },
-    'Magnuson Health Sciences Center E (HSE)': {
+    "Capen Boiler ": {
         'campus': 'smith'
     },
-    'Magnuson Health Sciences Center I (HSI)': {
+    "Capen Garage": {
         'campus': 'smith'
     },
-    'Magnuson Health Sciences Center T (HST)': {
+    "Capen House": {
         'campus': 'smith'
     },
-    'Mary Gates Hall (MGH)': {
+    "Chapin House": {
         'campus': 'smith'
     },
-    'Mary Gates Hall (MGH)': {
+    "Chase House": {
         'campus': 'smith'
     },
-
-    'McCarty Hall (MCC)': {
+    "Chiller Plant": {
         'campus': 'smith'
     },
-    'McMahon Hall (MCM)': {
+    "Clark Hall": {
         'campus': 'smith'
     },
-    'Mercer Court (MRC)': {
+    "Clark Science Center": {
         'campus': 'smith'
     },
-    'Miller Hall (MLR)': {
+    "College Hall": {
         'campus': 'smith'
     },
-    'Molecular Engineering & Sciences (MOL)': {
+    "Comstock House": {
         'campus': 'smith'
     },
-    'Music Building (MUS)': {
+    "Conway House": {
         'campus': 'smith'
     },
-    'Odegaard Undergraduate Library (OUGL)': {
+    "Crew House": {
         'campus': 'smith'
     },
-    'Paccar Hall (PCAR)': {
+    "Cushing House": {
         'campus': 'smith'
     },
-    'Padelford Hall (PDL)': {
+    "Cutter House": {
         'campus': 'smith'
     },
-    'Parrington Hall (PAR)': {
+    "Davis Center": {
         'campus': 'smith'
     },
-    'Physics/Astronomy Building (PAB) Tower': {
+    "Dawes House": {
         'campus': 'smith'
     },
-    'Physics / Astronomy Building (PAB)': {
+    "Dewey House": {
         'campus': 'smith'
     },
-    'Poplar Hall (UTO)': {
+    "Drew Hall ": {
         'campus': 'smith'
     },
-    'Red Square': {
+    "Duckett House": {
         'campus': 'smith'
     },
-    'Roosevelt Clinic': {
+    "Emerson House": {
         'campus': 'smith'
     },
-    'Science Building (SCI)': {
+    "Equestrian Center": {
         'campus': 'smith'
     },
-    'Smith Hall (SMI)': {
+    "Facilities Management Garage": {
         'campus': 'smith'
     },
-    'Social Work/Speech & Hearing Sciences Building (SWS)': {
+    "Field House": {
         'campus': 'smith'
     },
-    'South Campus Center (SOCC)': {
+    "Fine Arts Center": {
         'campus': 'smith'
     },
-    'South Campus Center': {
+    "Ford Hall": {
         'campus': 'smith'
     },
-    'Surgery And Treatment Pavilion (UMSP)': {
+    "Fort Hill Garage": {
         'campus': 'smith'
     },
-    'Suzzallo Library (SUZ)': {
+    "Fort Hill-Lyman Estate House": {
         'campus': 'smith'
     },
-    'UW Medical Center': {
+    "Fort Hill, CECE": {
         'campus': 'smith'
     },
-    'UW Tower Building A (UWTA)': {
+    "Franklin King Garage": {
         'campus': 'smith'
     },
-    'William H. Foege Genome Sciences (GNOM)': {
+    "Friedman Complex (A,B,C,D)": {
         'campus': 'smith'
     },
-    'William H. Foege Bioengineering (BIOE)': {
+    "Gables": {
         'campus': 'smith'
     },
-    'William H. Gates Hall (LAW)': {
+    "Gardiner House": {
         'campus': 'smith'
     },
-
-
-
-    'Brotman Building (BFB)': {
+    "Garrison Hall": {
         'campus': 'smith'
     },
-
-
-    'Activities and Recreation Center': {
+    "Gill Hall": {
         'campus': 'smith'
     },
-    'Beardslee Building (UWBB)': {
+    "Gillett House": {
         'campus': 'smith'
     },
-    'Bothell Bookstore (LB2)': {
+    "Graduate House": {
         'campus': 'smith'
     },
-    'Bothell Library (LB1)': {
+    "Green Street Classroom Annex": {
         'campus': 'smith'
     },
-    'Bothell Library Annex (LBA)': {
+    "Grounds Garage": {
         'campus': 'smith'
     },
-    'Founders Hall (UW1)': {
+    "Hatfield Hall": {
         'campus': 'smith'
     },
-    'Chase House': {
+    "Haven House": {
         'campus': 'smith'
     },
-    'Commons Hall (UW2)': {
+    "Helen Hills Hills Chapel": {
         'campus': 'smith'
     },
-    'Discovery Hall (UW3)': {
+    "Hopkins House": {
         'campus': 'smith'
     },
-    'Husky Hall (HH)': {
+    "Hubbard House": {
         'campus': 'smith'
     },
-    'Husky Village Apartments': {
+    "Indoor Track & Tennis Facility": {
         'campus': 'smith'
     },
-    'North Creek Events Center': {
+    "Japanese Tea Hut": {
         'campus': 'smith'
     },
-
-    'Truly House': {
+    "John M. Greene Hall": {
         'campus': 'smith'
     },
-
-
-    'Academic Building (ADMC)': {
+    "Jordan House": {
         'campus': 'smith'
     },
-    'Birmingham Block (BB)': {
+    "King House": {
         'campus': 'smith'
     },
-    'Birmingham Hay & Seed (BHS)': {
+    "Lamont House": {
         'campus': 'smith'
     },
-    'Carlton Center (CAR)': {
+    "Laundry - Campus School": {
         'campus': 'smith'
     },
-    'Cherry Parkes (CP)': {
+    "Lawrence House": {
         'campus': 'smith'
     },
-    'Dougan (DOU)': {
+    "Lilly Hall": {
         'campus': 'smith'
     },
-    'Garretson Woodruff & Pratt (GWP)': {
+    "Lyman Plant House": {
         'campus': 'smith'
     },
-    'Russell T. Joy': {
+    "Mason Hall": {
         'campus': 'smith'
     },
-    'Joy': {
+    "McConnell Hall": {
         'campus': 'smith'
     },
-    'Keystone (KEY)': {
+    "Mendenhall CPA": {
         'campus': 'smith'
     },
-    'Laborer\'s Hall': {
+    "Morgan Hall": {
         'campus': 'smith'
     },
-    'Longshoremen\'s Hall (LSH)': {
+    "Morris House": {
         'campus': 'smith'
     },
-    'Mattress Factory (MAT)': {
+    "Morrow House": {
         'campus': 'smith'
     },
-    'McDonald Smith (MDS)': {
+    "Morton Building -Tennis Courts": {
         'campus': 'smith'
     },
-    'Pinkerton (PNK)': {
+    "Neilson Library": {
         'campus': 'smith'
     },
-    'Science (SCI)': {
+    "Northrop House": {
         'campus': 'smith'
     },
-    'Snoqualmie Building (SNO)': {
+    "Outdoor Track/Tennis Facilities": {
         'campus': 'smith'
     },
-    'The Whitney': {
+    "Paradise Pond": {
         'campus': 'smith'
     },
-    'Tioga Library Building (TLB)': {
+    "Park Annex": {
         'campus': 'smith'
     },
-    'University Y Student Center': {
+    "Park House": {
         'campus': 'smith'
     },
-    'Walsh Gardner (WG)': {
+    "Parking Garage": {
         'campus': 'smith'
     },
-    'West Coast Grocery (WCG)': {
+    "Parsons Annex": {
         'campus': 'smith'
     },
-    'William W. Phillip Hall (WPH)': {
+    "Parsons House": {
         'campus': 'smith'
-    }
-
+    },
+    "Pierce Hall": {
+        'campus': 'smith'
+    },
+    "Power Plant": {
+        'campus': 'smith'
+    },
+    "President's House": {
+        'campus': 'smith'
+    },
+    "Research Greenhouse": {
+        'campus': 'smith'
+    },
+    "Sabin-Reed Hall": {
+        'campus': 'smith'
+    },
+    "Sage Hall": {
+        'campus': 'smith'
+    },
+    "Scales House": {
+        'campus': 'smith'
+    },
+    "Scott Gym": {
+        'campus': 'smith'
+    },
+    "Seelye Hall": {
+        'campus': 'smith'
+    },
+    "Sessions Annex": {
+        'campus': 'smith'
+    },
+    "Sessions House": {
+        'campus': 'smith'
+    },
+    "Smith College Confererence Center": {
+        'campus': 'smith'
+    },
+    "Stoddard Annex": {
+        'campus': 'smith'
+    },
+    "Stoddard Hall": {
+        'campus': 'smith'
+    },
+    "Sunnyside": {
+        'campus': 'smith'
+    },
+    "Talbot House": {
+        'campus': 'smith'
+    },
+    "Tenney House": {
+        'campus': 'smith'
+    },
+    "Tennis Hut": {
+        'campus': 'smith'
+    },
+    "The Nancy and Henry Schacht Center for Health and Wellness": {
+        'campus': 'smith'
+    },
+    "Tilly Hall": {
+        'campus': 'smith'
+    },
+    "Tyler Annex": {
+        'campus': 'smith'
+    },
+    "Tyler House": {
+        'campus': 'smith'
+    },
+    "Unity House": {
+        'campus': 'smith'
+    },
+    "Washburn House": {
+        'campus': 'smith'
+    },
+    "Wesley House": {
+        'campus': 'smith'
+    },
+    "Whately Observatory": {
+        'campus': 'smith'
+    },
+    "Wilder House": {
+        'campus': 'smith'
+    },
+    "Wilson House": {
+        'campus': 'smith'
+    },
+    "Wright Hall": {
+        'campus': 'smith'
+    },
+    "Ziskind House": {
+        'campus': 'smith'
+    },
 }
-
 
 def get_building_list():
     return flatten_building_list(BUILDING_LIST)
