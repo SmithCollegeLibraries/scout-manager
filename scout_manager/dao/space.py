@@ -3,7 +3,6 @@ from spotseeker_restclient.exceptions import DataFailureException
 from scout.dao.space import add_cuisine_names, add_foodtype_names_to_spot, \
     add_payment_names, add_additional_info, add_study_info, add_tech_info
 from scout.dao.item import add_item_info
-from scout_manager.dao.groups import add_group
 import json
 import re
 
@@ -96,8 +95,6 @@ def process_extended_info(spot):
     spot = add_tech_info(spot)
     spot.grouped_hours = get_spot_hours_by_day(spot)
     for item in spot.extended_info:
-        if item.key == "owner":
-            spot.owner = item.value
         if item.key == "app_type":
             spot.app_type = item.value
         if item.key == "is_hidden":
@@ -172,10 +169,6 @@ def _build_spot_json(form_data):
         pass
 
     # formats extended info
-    auth_group = json_data.get("extended_info:owner", None)
-    if auth_group is not None:
-        # TODO: pass some error to clients if this isn't included
-        add_group(auth_group.lower())
     cuisines = json_data.pop("extended_info:s_cuisine", [])
     cuisines = _process_checkbox_array(cuisines)
 

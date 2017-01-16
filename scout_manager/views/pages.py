@@ -173,16 +173,4 @@ def item_image(request, image_id, item_id):
 
 
 def _filter_spots(spots, netid):
-    if is_superuser(netid):
-        return spots
-    user_groups = GroupMembership.objects.filter(person__netid=netid)
-    group_ids = []
-    for group in user_groups:
-        group_ids.append(group.group.group_id)
-    filtered_spots = []
-    for spot in spots:
-        if hasattr(spot, "owner"):
-            if spot.owner in group_ids:
-                filtered_spots.append(spot)
-
-    return filtered_spots
+    return spots
