@@ -67,19 +67,19 @@
             </legend>
             <div class="well">
                 <div class="radio">
-                    <label><input type="radio" name="noise" {% if spot.spot_noise == "silent" %} checked {% endif %} value="silent">Silent</label>
+                    <label><input type="radio" name="extended_info:noise_level" {% if spot.spot_noise == "silent" %} checked {% endif %} value="silent">Silent</label>
                 </div>
                 <div class="radio">
-                    <label><input type="radio" name="noise" {% if spot.spot_noise == "quiet" %} checked {% endif %} value="quiet">Quiet</label>
+                    <label><input type="radio" name="extended_info:noise_level" {% if spot.spot_noise == "quiet" %} checked {% endif %} value="quiet">Quiet</label>
                 </div>
                 <div class="radio">
-                    <label><input type="radio" name="noise" {% if spot.spot_noise == "moderate" %} checked {% endif %} value="moderate">Chatter</label>
+                    <label><input type="radio" name="extended_info:noise_level" {% if spot.spot_noise == "moderate" %} checked {% endif %} value="moderate">Chatter</label>
                 </div>
                 <div class="radio">
-                    <label><input type="radio" name="noise" {% if spot.spot_noise == "variable" %} checked {% endif %} value="variable">Variable</label>
+                    <label><input type="radio" name="extended_info:noise_level" {% if spot.spot_noise == "variable" %} checked {% endif %} value="variable">Variable</label>
                 </div>
                 <div class="radio">
-                <label><input type="radio" name="noise" {% if not spot.spot_noise %} checked {% endif %} value="">N/A</label>
+                <label><input type="radio" name="extended_info:noise_level" {% if not spot.spot_noise %} checked {% endif %} value="">N/A</label>
                 </div>
             </div>
         </fieldset>
@@ -120,16 +120,16 @@
             <legend>Food Nearby</legend>
             <div class="well">
                 <div class="radio">
-                    <label><input type="radio" name="food_nearby" {% if spot.food_nearby == "space" %} checked {% endif %} value="space">In space</label>
+                    <label><input type="radio" name="extended_info:food_nearby" {% if spot.food_nearby == "space" %} checked {% endif %} value="space">In space</label>
                 </div>
                 <div class="radio">
-                    <label><input type="radio" name="food_nearby" {% if spot.food_nearby == "neighboring" %} checked {% endif %} value="neighboring">In neighboring area</label>
+                    <label><input type="radio" name="extended_info:food_nearby" {% if spot.food_nearby == "neighboring" %} checked {% endif %} value="neighboring">In neighboring area</label>
                 </div>
                 <div class="radio">
-                    <label><input type="radio" name="food_nearby" {% if spot.food_nearby == "building" %} checked {% endif %} value="building">In the building</label>
+                    <label><input type="radio" name="extended_info:food_nearby" {% if spot.food_nearby == "building" %} checked {% endif %} value="building">In the building</label>
                 </div>
                 <div class="radio">
-                    <label><input type="radio" name="food_nearby" {% if not spot.food_nearby %} checked {% endif %} value="">N/A</label>
+                    <label><input type="radio" name="extended_info:food_nearby" {% if not spot.food_nearby %} checked {% endif %} value="">N/A</label>
                 </div>
             </div>
         </fieldset>
