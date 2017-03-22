@@ -11,7 +11,7 @@ urlpatterns = patterns(
     '',
 
     # /manager/
-    url(r'^$', RedirectView.as_view(url='/manager/spaces/')),
+    url(r'^$', RedirectView.as_view(url='/manager/spaces/', permanent=True)),
 
     # /items/
     url(r'^items/$', 'scout_manager.views.pages.items',
