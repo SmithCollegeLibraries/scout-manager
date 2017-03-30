@@ -43,7 +43,7 @@ var Spot = {
                 $("#pub_error").html(error + ": " + xhr.responseText);
                 switch (xhr.status) {
                     case 500:
-                        $("#pub_error").html("Something went wrong on our end and our developers have been alerted. Please try again later and feel free to contact help@uw.edu.");
+                        $("#pub_error").html("Something went wrong on our end and our developers have been alerted. Please try again later and feel free to contact libraryhelp@smith.edu.");
                         break;
                     case 403:
                         $("#pub_error").html("Sorry, but you don't have permission to update this page.");
@@ -88,7 +88,7 @@ var Spot = {
                 $("#pub_error").html(error + ": " + xhr.responseText);
                 switch (xhr.status) {
                     case 500:
-                        $("#pub_error").html("Something went wrong on our end and our developers have been alerted. Please try again later and feel free to contact help@uw.edu.");
+                        $("#pub_error").html("Something went wrong on our end and our developers have been alerted. Please try again later and feel free to contact libraryhelp@smith.edu.");
                         break;
                     case 403:
                         $("#pub_error").html("Sorry, but you don't have permission to update this page.");
@@ -131,7 +131,7 @@ var Spot = {
 
                 switch (xhr.status) {
                     case 500:
-                        $("#pub_error").html("Something went wrong on our end and our developers have been alerted. Please try again later and feel free to contact help@uw.edu.");
+                        $("#pub_error").html("Something went wrong on our end and our developers have been alerted. Please try again later and feel free to contact libraryhelp@smith.edu.");
                         break;
                     case 403:
                         $("#pub_error").html("Sorry, but you don't have permission to update this page.");

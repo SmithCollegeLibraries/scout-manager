@@ -42,7 +42,7 @@ def _makeTestFooterFunc(start):
         page = self.makeSoup(urls[start])
         self.assertTrue(self.checkLinkExists(page, 'http://www.washington.edu/online/privacy/'))
         self.assertTrue(self.checkLinkExists(page, 'http://www.washington.edu/online/terms/'))
-        self.assertTrue(self.checkLinkExists(page, 'mailto:help@uw.edu'))
+        self.assertTrue(self.checkLinkExists(page, 'mailto:libraryhelp@smith.edu'))
 
     _testFunc.__name__ = 'test_%s_page_footer_links' %(start)
     _testFunc.__doc__ = 'Assert that footer links on the %s page exist' %(start)
