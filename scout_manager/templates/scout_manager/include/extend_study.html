@@ -45,7 +45,10 @@
             <div class="well">
                 <div class="form-group ">
                     <div class="radio">
-                        <label for="no_reservations"><input id="no_reservations" type="radio" name="extended_info:reservable" value="" {% if not spot.reservable %}checked{% endif%}>Occupyable</label>
+                        <label for="no_reservations"><input id="no_reservations" type="radio" name="extended_info:reservable" value="" {% if not spot.reservable %}checked{% endif%}>None</label>
+                    </div>
+                    <div class="radio">
+                        <label for="occupancies_required"><input id="occupancies_required" type="radio" name="extended_info:reservable" value="occupancies" {% if spot.reservable == 'occupancies' %}checked{% endif%}>Occupyable</label>
                     </div>
                     <div class="radio">
                         <label for="reservations_required"><input id="reservations_required" type="radio" name="extended_info:reservable" value="reservations" {% if spot.reservable == 'reservations' %}checked{% endif%}>Reservable</label>
