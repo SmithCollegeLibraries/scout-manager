@@ -227,6 +227,10 @@ BUILDING_LIST = {
         'campus': 'smith',
         'code': 'FM112',
     },
+    "Forbes Library": {
+        'campus': 'smith',
+        'code': '---',
+    },
     "Ford Hall": {
         'campus': 'smith',
         'code': 'FM138',
