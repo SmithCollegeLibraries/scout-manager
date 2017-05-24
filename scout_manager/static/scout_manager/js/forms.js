@@ -63,14 +63,13 @@ var Forms = {
             $(empty_hours).find("input").each(function(idx, hour_input){
                 if($(hour_input).attr('id').indexOf("open") !== -1){
                     open_input = hour_input;
-                } else if($(hour_input).attr('id').indexOf("close") !== -1){
-                    close_input = hour_input;
                 } else if($(hour_input).attr('id').indexOf("close_midnight") !== -1){
                     close_midnight = hour_input;
+                } else if($(hour_input).attr('id').indexOf("close") !== -1){
+                    close_input = hour_input;
                 }
             });
 
-            console.log(open_input);
             var input_id = $(open_input).attr('id').split("_");
             var prev_input_id_int = parseInt(input_id[input_id.length - 1]);
             var input_id_int = prev_input_id_int + 1;
@@ -238,12 +237,13 @@ var Forms = {
         });
 
         $('#mgr_upload_button').click(function() {
-            if ($(this).val() == "upload-item-image")
+            if ($(this).val() == "upload-item-image") {
                 Item.submit_item();
-            else
+            }
+            else {
                 // submit spot
-                //Spot.submit_spot();
-                Spot.submit_spot({'data':{'exit': false}});
+                Spot.submit_spot({'data': {'exit': false}});
+            }
         });
 
     },
