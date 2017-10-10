@@ -303,6 +303,10 @@ BUILDING_LIST = {
         'campus': 'smith',
         'code': 'FM435',
     },
+    "Kahn Institute": {
+        'campus': 'smith',
+        'code': 'FM199',
+    },
     "King House": {
         'campus': 'smith',
         'code': 'FM436',
