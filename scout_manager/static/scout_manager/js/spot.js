@@ -163,6 +163,7 @@ var Spot = {
         var form = $("form").first();
         var serialized_form = form.serializeObject();
         serialized_form["available_hours"] = Spot._get_spot_hours();
+        serialized_form["images"] = Spot._get_spot_images();
         serialized_form["removed_images"] = window.removed_images;
         return serialized_form;
 
@@ -186,6 +187,17 @@ var Spot = {
 
         });
         return avalible_hours;
+    },
+
+    _get_spot_images: function() {
+        var image_inputs = $("div#mgr_list_spot_images input.form-image");
+        var images = [];
+        image_inputs.each(function(index, image_input){
+            var image_id = $(image_input).attr('id');
+            var description = $(image_input).val();
+            images.push({id: image_id, description: description});
+        });
+        return images;
     },
 
     _navigate_to_apptype: function() {

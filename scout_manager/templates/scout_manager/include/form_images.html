@@ -41,6 +41,7 @@
      <div class="col-md-4">
          <div class="well" style="padding:0;">
              <div class="mgr-edit-img-container" data-url="/manager/images/{{ spot.spot_id }}/image/{{ image.image_id }}/" data-id="{{ image.image_id }}"></div>
+             <input type="text" class="form-control form-image" id="{{ image.image_id }}" name="" value="{% if image.description %}{{ image.description }}{% endif %}" placeholder="Description" />
              <div class="mgr-dataset-actions" style="padding:19px;">
                  <button class="btn btn-danger btn-sm mgr-delete-image" type="button"><i class="fa fa-trash"></i> <span>Delete Image</span></button>&nbsp;&nbsp;
                  {% if forloop.first %}
