@@ -44,6 +44,14 @@
             <textarea name="extended_info:location_description" rows="2" class="form-control" id="location-description" type="text">{% if spot.location_description %}{{spot.location_description}}{% endif %}</textarea>
             <p class="help-block">Note: Combine building name, room number, floor, and directional orientation to create a location description that can guide students to the space. Please read more about formatting and see examples.</p>
         </div>
+        <div class="form-group">
+            <label for="accessibility-description">Accessibility Description:
+            <a type="button" class="help-link" data-toggle="modal" data-target="#help_accessibility" title="More info: Accessibility Description" >
+              <i class="fa fa-info-circle fa-2" aria-hidden="true"></i><span class="visually-hidden">More information</span>
+            </a>
+            </label>
+            <textarea name="extended_info:accessibility_description" rows="2" class="form-control" id="accessibility-description" type="text">{% if spot.accessibility_description %}{{spot.accessibility_description}}{% endif %}</textarea>
+        </div>
         {% endif %}
         {% endif %}
 
