@@ -283,6 +283,10 @@ BUILDING_LIST = {
         'campus': 'smith',
         'code': 'FM117',
     },
+    "Hillyer Library": {
+        'campus': 'smith',
+        'code': 'FM601',
+    },
     "Hopkins House": {
         'campus': 'smith',
         'code': 'FM428',
@@ -302,6 +306,10 @@ BUILDING_LIST = {
     "Jordan House": {
         'campus': 'smith',
         'code': 'FM435',
+    },
+    "Josten Library": {
+        'campus': 'smith',
+        'code': 'FM602',
     },
     "Kahn Institute": {
         'campus': 'smith',
@@ -470,6 +478,10 @@ BUILDING_LIST = {
     "Wright Hall": {
         'campus': 'smith',
         'code': 'FM137',
+    },
+    "Young Library": {
+        'campus': 'smith',
+        'code': 'FM600',
     },
     "Ziskind House": {
         'campus': 'smith',
