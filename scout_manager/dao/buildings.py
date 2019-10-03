@@ -375,7 +375,7 @@ BUILDING_LIST = {
         'campus': 'smith',
         'code': 'FM213',
     },
-    "Henshaw Complex": {
+    "Henshaw D": {
         'campus': 'smith',
         'code': 'FM450',
     },
