@@ -1,5 +1,5 @@
 from django.template import RequestContext
-from django.shortcuts import render_to_response
+from django.shortcuts import render
 from django.contrib.auth.decorators import login_required
 from scout_manager.dao.item import get_item_by_id as manager_get_item_by_id
 from scout_manager.dao.space import get_spot_by_id as manager_get_spot_by_id
@@ -15,10 +15,10 @@ import base64
 
 @login_required
 def home(request):
-    return render_to_response(
+    return render(
+            request,
             'scout_manager/home.html',
-            {"netid": request.user.username},
-            context_instance=RequestContext(request))
+            {"netid": request.user.username})
 
 @login_required
 def items(request):
@@ -33,8 +33,7 @@ def items(request):
                "count": count,
                "netid": request.user.username,
                "is_superuser": request.user.is_superuser}
-    return render_to_response('scout_manager/items.html', context,
-                              context_instance=RequestContext(request))
+    return render(request, 'scout_manager/items.html', context)
 
 @login_required
 def items_add(request):
@@ -47,10 +46,10 @@ def items_add(request):
                "buildings": buildings,
                "count": len(spots),
                "netid": request.user.username}
-    return render_to_response(
+    return render(
+            request,
             'scout_manager/items_add.html',
-            context,
-            context_instance=RequestContext(request))
+            context)
 
 @login_required
 def items_edit(request, item_id):
@@ -62,18 +61,17 @@ def items_edit(request, item_id):
                "buildings": buildings,
                "app_type": 'tech',
                "netid": request.user.username}
-    return render_to_response('scout_manager/items_edit.html', context,
-                              context_instance=RequestContext(request))
+    return render(request, 'scout_manager/items_edit.html', context)
 
 @login_required
 def schedule(request, spot_id):
     spot = manager_get_spot_by_id(spot_id)
     context = {"spot": spot,
                "netid": request.user.username}
-    return render_to_response(
+    return render(
+            request,
             'scout_manager/schedule.html',
-            context,
-            context_instance=RequestContext(request))
+            context)
 
 @login_required
 def spaces(request):
@@ -93,10 +91,10 @@ def spaces(request):
                "app_type": app_type,
                "netid": request.user.username,
                "is_superuser": request.user.is_superuser}
-    return render_to_response(
+    return render(
+            request,
             'scout_manager/spaces.html',
-            context,
-            context_instance=RequestContext(request))
+            context)
 
 @login_required
 def spaces_add(request):
@@ -105,17 +103,17 @@ def spaces_add(request):
                "spot": {"grouped_hours": get_spot_hours_by_day(None)},
                "campus_locations": CAMPUS_LOCATIONS,
                "netid": request.user.username}
-    return render_to_response(
+    return render(
+            request,
             'scout_manager/spaces_add.html',
-            context,
-            context_instance=RequestContext(request))
+            context)
 
 @login_required
 def spaces_upload(request):
-    return render_to_response(
+    return render(
+            request,
             'scout_manager/spaces_upload.html',
-            {"netid": request.user.username},
-            context_instance=RequestContext(request))
+            {"netid": request.user.username})
 
 @login_required
 def spaces_edit(request, spot_id):
@@ -129,10 +127,10 @@ def spaces_edit(request, spot_id):
                "campus_locations": CAMPUS_LOCATIONS,
                "netid": request.user.username
                }
-    return render_to_response(
+    return render(
+            request,
             'scout_manager/spaces_edit.html',
-            context,
-            context_instance=RequestContext(request))
+            context)
 
 @login_required
 def image(request, image_id, spot_id):
